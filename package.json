@@ -1,0 +1,57 @@
+{
+  "name": "vscode-chat",
+  "displayName": "VSCode Chat",
+  "description": "Chatbot in VSCode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vscode-chat.chat",
+        "title": "VSCode Chat: Ask a question"
+      }
+    ],
+    "configuration": {
+      "title": "VSCode Chat Configuration",
+      "properties": {
+        "vscode-chat.OPENAI_KEY": {
+          "type": "string",
+          "default": "<API_KEY>",
+          "description": "API Key for OpenAI",
+          "scope": "resource"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "18.x",
+    "@types/vscode": "^1.76.0",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "@vscode/test-electron": "^2.2.3",
+    "eslint": "^8.34.0",
+    "glob": "^8.1.0",
+    "mocha": "^10.2.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "hnswlib-node": "^1.4.0",
+    "langchain": "^0.0.12"
+  }
+}

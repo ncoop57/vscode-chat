@@ -27,15 +27,11 @@ Now that the setup is complete, you can ask questions about your files by follow
 6. Wait for the extension to generate an answer.
 7. The answer will be displayed in the chat window.
 
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
 ## Extension Settings
 
 This extension contributes the following settings:
 
-* `vscode-chat.conf.resource.OPENAI_KEY`: OpenAI API Key
+* `vscode-chat.OPENAI_KEY`: OpenAI API Key
 
 ## Known Issues
 
@@ -51,3 +47,11 @@ Here are the release notes for the extension.
 ### 0.0.1
 
 Initial release of VSCode Chat with basic functionality. Namely, you can ask questions about your currently open file and get an answer.
+
+## Roadmap
+
+Here are some features I plan to add in the future:
+
+- [ ] Add a "Refresh" button to the chat window to refresh the content that you can ask questions about.
+- [ ] Add a "Clear" button to the chat window to clear the chat history.
+- [ ] Add ability to ask questions about multiple files at once.
