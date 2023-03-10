@@ -4,7 +4,7 @@ VSCode Chat is a VSCode extension that leverages LangChain and OpenAI's GPT API 
 
 <p align="center">
     <br>
-    <img src="https://raw.githubusercontent.com/ncoop57/vscode-chat/main/public/demo_vscode_chat.png" width="512"/>
+    <img src="https://raw.githubusercontent.com/ncoop57/vscode-chat/main/public/demo_vscode_chat.png" width="1024"/>
     <br>
 <p>
 
