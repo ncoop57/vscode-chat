@@ -2,6 +2,12 @@
 
 VSCode Chat is a VSCode extension that leverages LangChain and OpenAI's GPT API to allow you to ask questions about your files inside of VSCode.
 
+<p align="center">
+    <br>
+    <img src="https://raw.githubusercontent.com/ncoop57/vscode-chat/main/public/demo_vscode_chat.png" width="512"/>
+    <br>
+<p>
+
 ## Features
 
 * Ask natural language questions about your files within the VSCode editor.
