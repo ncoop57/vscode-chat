@@ -2,6 +2,7 @@
   "name": "vscode-chat",
   "displayName": "VSCode Chat",
   "description": "Chatbot in VSCode",
+  "repository": "https://github.com/ncoop57/vscode-chat",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.76.0"
